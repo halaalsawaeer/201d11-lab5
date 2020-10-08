@@ -34,9 +34,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 var result = a*b;
-return [result, 'the product of ${a} and ${b} is ${result}. ' ] ;
+return [result, `The product of ${a} and ${b} is ${result}.` ] ;
 }
-console.log(multiply(5, 9) ) ;
+console.log(multiply(5,9)) ;
 
 // Here is the test for multiply(); uncomment it to run it
 //5,9
